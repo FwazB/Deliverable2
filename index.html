@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mini Golf Game</title>
+  </head>
+  <body>
+    <h1>Welcome to Mini Golf!</h1>
+
+    <div>
+      <label for="userName">What is your name?</label>
+      <input type="text" id="userName" placeholder="Enter your name" />
+    </div>
+
+    <div>
+      <label for="holeCount">Would you like to play 3 or 6 holes?</label>
+      <select id="holeCount">
+        <option value="3">3</option>
+        <option value="6">6</option>
+      </select>
+    </div>
+    <button id="startButton">Start Game</button>
+
+    <div id="puttsInputs"></div>
+
+    <button id="calculateButton" style="display: none">
+      Calculate Total Par
+    </button>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
